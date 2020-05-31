@@ -21,7 +21,7 @@ if __name__ == '__main__':
 
     url = ('https://newsapi.org/v2/top-headlines?'
            f'sources={choosen}&'
-           'apiKey=431364b36a604734bf1295fcd33ea076')
+           'apiKey=YOUR API KEY')
     response = requests.get(url)
 
     length_of_article = len(response.json()['articles'])
